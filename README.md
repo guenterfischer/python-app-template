@@ -36,7 +36,10 @@ poetry build
 ```
 
 
-## Installation
+## User Guide
+
+
+### Installation
 
 ```bash
 # Install previously built package on any machine with...
