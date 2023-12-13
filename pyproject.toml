@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-app-template"
+version = "0.1.0"
+description = "Template for a Python Application built with Typer and Poetry"
+authors = ["Günter Fischer <fischerguenter42@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "pyapp" }]
+
+[tool.poetry.scripts]
+pyapp = "pyapp.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "^0.9.0"
+rich = "^13.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
