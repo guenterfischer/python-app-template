@@ -3,6 +3,9 @@
 Template for a Python Application built with Typer and Poetry
 
 
+## Developer Guide
+
+
 ### Installation
 
 ```bash
